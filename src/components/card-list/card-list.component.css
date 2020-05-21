@@ -1,7 +1,16 @@
 .card-list {
+<<<<<<< HEAD
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 2%;
 }
+=======
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+>>>>>>> 4c94a44c3e2e43ece6bc7ff33b9e0defb1f373ff

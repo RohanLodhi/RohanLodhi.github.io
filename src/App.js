@@ -56,6 +56,7 @@ class App extends React.Component{
           language: 'Python and C++',
           site: `https://github.com/RohanLodhi/hangman-school`,
           url: `https://media.istockphoto.com/photos/hangman-sketched-on-blackboard-picture-id466313780?k=6&m=466313780&s=612x612&w=0&h=Wpx_vgPCyt3oEJ5CIAhHxVfWlqdRfXrAfsHX4MbPfe8=`
+<<<<<<< HEAD
         },
         {
           name: 'Sudoku solver',
@@ -63,6 +64,8 @@ class App extends React.Component{
           language: 'JavaScript',
           site: `https://devx.tk/sudoku`,
           url: `https://vectorified.com/images/sudoku-icon-15.png`
+=======
+>>>>>>> 4c94a44c3e2e43ece6bc7ff33b9e0defb1f373ff
         }
       ],
       searchField: ''
