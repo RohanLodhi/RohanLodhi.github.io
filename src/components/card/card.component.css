@@ -3,7 +3,6 @@ img{
   height: 180px;
 }
 .card-container {
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   background-color: #95dada;
@@ -20,20 +19,6 @@ img{
   margin: 1rem;
   max-height: 370px;
 }
-=======
-    display: flex;
-    flex-direction: column;
-    background-color: #95dada;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 25px;
-    cursor: pointer;
-    -moz-osx-font-smoothing: grayscale;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
-  }
->>>>>>> 4c94a44c3e2e43ece6bc7ff33b9e0defb1f373ff
   
   .card-container:hover {
     transform: scale(1.05);
