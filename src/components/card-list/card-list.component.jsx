@@ -4,7 +4,7 @@ import {Card} from '../card/card.component';
 
 export const CardList = props => (
     <div className='card-list'>
-        {props.projects.map(project => (
+        {props.projects.reverse().map(project => (
             <Card key="project.id" project={project} />
         ))}
     </div>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Condensed&display=swap');
+
 .App {
   text-align: center;
 }
@@ -37,6 +39,15 @@
   }
 }
 h1 {
-  font-family: 'Lora', serif;
-  color: #364abb;
+  font-weight: 450;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #007bff;
+}
+
+.title{
+  color: rgb(250, 224, 78);
+  font-size: 3em;
+  margin-bottom: 3rem;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 2px;
 }
