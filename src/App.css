@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto+Condensed&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 .App {
   text-align: center;
 }
@@ -39,15 +39,14 @@
   }
 }
 h1 {
-  font-weight: 450;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: #007bff;
+  font-weight: 50;
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
 }
 
 .title{
-  color: rgb(250, 224, 78);
+  color: #ffffff;
   font-size: 3em;
-  margin-bottom: 3rem;
-  font-family: 'Merriweather', serif;
-  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  font-family: 'Mukta', sans-serif;
 }
