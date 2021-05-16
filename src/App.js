@@ -12,14 +12,11 @@ const App = () => {
     setSearchfield(e.target.value);
   };
 
-  const filteredProjects = projects.filter((project) => {
-    if (
+  const filteredProjects = projects.filter(
+    (project) =>
       project.name.toLowerCase().includes(searchfield.toLowerCase()) ||
       project.langs.toLowerCase().includes(searchfield.toLowerCase())
-    ) {
-      return project;
-    }
-  });
+  );
 
   return (
     <div className="App">
