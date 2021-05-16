@@ -5,7 +5,7 @@ import { SearchBox } from './components/search-box/search-box.component';
 import projectsData from './data';
 
 const App = () => {
-  const [projects, setProjects] = useState(projectsData);
+  const projects = projectsData;
   const [searchfield, setSearchfield] = useState('');
 
   const handleChange = (e) => {
