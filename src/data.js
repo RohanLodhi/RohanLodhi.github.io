@@ -61,8 +61,22 @@ const projectsData = [
     name: 'Reactango',
     id: 'pr9',
     language: 'Coding challenges website for a discord server.',
-    site: `https://reactango.tk`,
+    site: `https://reactango.vercel.app`,
     langs: `HTML5, CSS3 & ReactJS`,
+  },
+  {
+    name: 'Unishell',
+    id: 'pr10',
+    language: 'A platform independent Bash- ported to Windows and Mac.',
+    site: `https://github.com/rohanlodhi/unishell`,
+    langs: `C++`,
+  },
+  {
+    name: 'Flaps',
+    id: 'pr11',
+    language: 'List out running processes and details.',
+    site: `https://github.com/RohanLodhi/FLAME-assignments/tree/main/CSIT206/Flaps`,
+    langs: `C`,
   },
 ];
 
